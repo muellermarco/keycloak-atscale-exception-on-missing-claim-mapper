@@ -1,5 +1,8 @@
 # Keycloak - Custom identity provider mapper
 
+So far only the mapper UI with the properties has been implemented. Next step is to create an exception on the missing claim specified.
+
+
 As other [Keycloak SPI](https://www.keycloak.org/docs/latest/server_development/index.html#_implementing_spi),
 * put jar file in ```/providers``` folder
 * if Keycloak server il already started, stop it
